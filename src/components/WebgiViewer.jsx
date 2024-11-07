@@ -70,9 +70,7 @@ export default function WebgiViewer() {
                 needsUpdate= false
             }
         })
-
         memoizedScrollAnimation(position, target, onUpdate)
-        
     }, [])
 
     useEffect(() => {

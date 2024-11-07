@@ -25,6 +25,8 @@ export default function DisplaySection() {
 
   }, [])
 
+  
+
   return (
     <div ref={root} className="display-section wrapper"style={{
       paddingInline: '50px',
